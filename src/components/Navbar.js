@@ -7,9 +7,6 @@ export default function NavbarRender({ currentPage, handlePageChange }){
     return(
         <Navbar collapseOnSelect expand='lg' id='total-nav'>
             <Container>
-                <Navbar.Brand href='#about'>
-                    LogoHere
-                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
