@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import Footer from './Footer';
 import Resume from '../pages/Resume';
 import About from '../pages/About';
-import Contact from '../pages/Contact';
 import Portfolio from '../pages/Portfolio';
 
 export default function ContentContainer() {
@@ -11,9 +10,6 @@ export default function ContentContainer() {
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderActivePage = () => {
-    if (currentPage === 'Contact') {
-      return <Contact />;
-    }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }

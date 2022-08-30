@@ -13,7 +13,7 @@ function CarouselControl(){
     return(
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-                <img/>
+                <img src='#'/>
                 <Carousel.Caption>
                     <a href="#">Portfolio1Live</a>
                     <a href='#'>Portfolio1Repo</a>

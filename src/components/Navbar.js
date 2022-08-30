@@ -2,9 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
-function Navbar({ currentPage, handlePageChange}){
+function Navbar(){
     return(
-        <Navbar collapseOnSelect expand='lg' id='total-nav'>
+        <nav collapseOnSelect expand='lg' id='total-nav'>
             <Container>
                 <Navbar.Brand href='#about'>
                     LogoHere
@@ -27,7 +27,7 @@ function Navbar({ currentPage, handlePageChange}){
                     </Nav>
                 </Navbar.Collapse>
             </Container>
-        </Navbar>
+        </nav>
     );
 }
 
