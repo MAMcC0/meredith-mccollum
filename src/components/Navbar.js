@@ -12,15 +12,15 @@ export default function NavbarRender({ currentPage, handlePageChange }){
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
                         <Nav.Link href="#about" onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}>
+                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} id="navbar">
                             About
                         </Nav.Link>
                         <Nav.Link href="#portfolio" onClick={() => handlePageChange('Portfolio')}
-                        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>
+                        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} id="navbar">
                             Portfolio
                         </Nav.Link>
                         <Nav.Link href="#resume" onClick={() => handlePageChange('Resume')}
-                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} >
+                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} id="navbar">
                             Resume
                         </Nav.Link>
                     </Nav>

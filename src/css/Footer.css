@@ -1,0 +1,14 @@
+ul{
+    display:flex;
+    justify-content: flex-start;
+}
+
+li{
+    list-style-type: none;
+}
+
+.nav-item{
+    padding-right: 10px;
+    color: #795548;
+}
+
