@@ -2,14 +2,15 @@
 #navbar{
     text-decoration: none;
     color: black;
-    font-size: 20px;
     padding-right: 100px;
     padding-left: 100px;
+}
+a{
+    font-size: 20px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
 }
-
 #total-nav{
     display: flex;
     align-content: center;
