@@ -6,11 +6,11 @@ import '../css/Navbar.css'
 
 export default function NavbarRender({ currentPage, handlePageChange }){
     return(
-        <Navbar collapseOnSelect expand='lg' id='total-nav'>
+        <Navbar collapseOnSelect expand='md' id='total-nav'>
             <Container>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="me-auto">
+                    <Nav className="mx-auto">
                         <Nav.Link href="#about" onClick={() => handlePageChange('About')}
                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} id="navbar">
                             About
