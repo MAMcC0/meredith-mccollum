@@ -5,11 +5,12 @@ export default function Home() {
   return (
     <div>
       <div id="page-title">
+        <div id="tagline">
         <h2>
           Full-Stack Engineer</h2>
-          <p> with an penchant for </p>
-        <p>creative-problem solving and</p>
-        <p>a drive to always improve</p>
+        <p> WITH A PENCHANT FOR CREATIVE</p>
+         <p>PROBLEM SOLVING </p>
+         </div>
         <h1> Meredith McCollum </h1>
       </div>
     </div>
