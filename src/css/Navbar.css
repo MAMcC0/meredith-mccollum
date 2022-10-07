@@ -1,0 +1,18 @@
+#navbar{
+    text-decoration: none;
+    color: #795548;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 23px;
+}
+
+#total-nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+
+#navbar:hover{
+    color:#ff9800;
+}

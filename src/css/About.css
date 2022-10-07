@@ -1,0 +1,40 @@
+body{
+    background-color: #f7dad1;
+    background-image: url('../photos/portfolio-background1.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 400;
+    color: #795548;
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 41%;
+    padding-right: 4%;
+}
+
+h2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    padding-bottom: .75rem;
+}
+
+p{
+    font-size: 1.50rem;
+    line-height: 30%;
+    text-align: center;
+}
+
+#page-title{
+    display:flex;
+    justify-content: space-between;
+}
+
+#tagline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    margin-top: 7%
+}
