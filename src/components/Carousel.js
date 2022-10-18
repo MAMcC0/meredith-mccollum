@@ -13,7 +13,8 @@ function CarouselControl(){
     return(
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-                <img src='#'/>
+                <img src="./photos/beginner-luck.png"
+                alt="Beginners Luck landing page"/>
                 <Carousel.Caption>
                     
                     <a href="https://sensationnel-baguette-60188.herokuapp.com/login">Beginner's Luck</a>
