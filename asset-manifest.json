@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.f62e18a6.css",
-    "main.js": "/static/js/main.1dc06ab5.js",
-    "static/media/beginner-luck.png": "/static/media/beginner-luck.62acd607e0eabebdc46c.png",
-    "static/media/naf.png": "/static/media/naf.5908d6517daa8e5a6ae8.png",
-    "static/media/weather-dash.png": "/static/media/weather-dash.3379a67de17e02c73fdf.png",
-    "static/media/portfolio-background1.png": "/static/media/portfolio-background1.4c16658539950548f0e2.png",
-    "static/media/day-planner.png": "/static/media/day-planner.ae93ae5cc4ec69833419.png",
-    "static/media/Meredith McCollum Resume.pdf": "/static/media/Meredith McCollum Resume.ded77236b6e9b11139be.pdf",
-    "static/media/down-with-fitness.png": "/static/media/down-with-fitness.524f711d77b493014862.png",
-    "static/media/note-taker.png": "/static/media/note-taker.a2de9d7186571a8e6674.png",
-    "index.html": "/index.html",
-    "main.f62e18a6.css.map": "/static/css/main.f62e18a6.css.map",
-    "main.1dc06ab5.js.map": "/static/js/main.1dc06ab5.js.map"
+    "main.css": "/meredith-mccollum/static/css/main.e5ed8a6d.css",
+    "main.js": "/meredith-mccollum/static/js/main.3d5986fe.js",
+    "static/media/beginner-luck.png": "/meredith-mccollum/static/media/beginner-luck.62acd607e0eabebdc46c.png",
+    "static/media/naf.png": "/meredith-mccollum/static/media/naf.5908d6517daa8e5a6ae8.png",
+    "static/media/weather-dash.png": "/meredith-mccollum/static/media/weather-dash.3379a67de17e02c73fdf.png",
+    "static/media/portfolio-background1.png": "/meredith-mccollum/static/media/portfolio-background1.4c16658539950548f0e2.png",
+    "static/media/day-planner.png": "/meredith-mccollum/static/media/day-planner.ae93ae5cc4ec69833419.png",
+    "static/media/Meredith McCollum Resume.pdf": "/meredith-mccollum/static/media/Meredith McCollum Resume.ded77236b6e9b11139be.pdf",
+    "static/media/down-with-fitness.png": "/meredith-mccollum/static/media/down-with-fitness.524f711d77b493014862.png",
+    "static/media/note-taker.png": "/meredith-mccollum/static/media/note-taker.a2de9d7186571a8e6674.png",
+    "index.html": "/meredith-mccollum/index.html",
+    "main.e5ed8a6d.css.map": "/meredith-mccollum/static/css/main.e5ed8a6d.css.map",
+    "main.3d5986fe.js.map": "/meredith-mccollum/static/js/main.3d5986fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.f62e18a6.css",
-    "static/js/main.1dc06ab5.js"
+    "static/css/main.e5ed8a6d.css",
+    "static/js/main.3d5986fe.js"
   ]
 }
