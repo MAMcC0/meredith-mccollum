@@ -1,0 +1,29 @@
+h3 {
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-left: 2%;
+    z-index: 3;
+    margin-top: -15%;
+ 
+}
+h3 a{
+    padding: 0;
+}
+
+img{
+    height: 5%;
+    width: 10%;
+}
+#skills{
+    padding-top: 17%;
+    padding-bottom: 15%
+}
+#skills p{
+    font-size: 2.75em;
+    line-height: .75em;
+    padding-left: 12%;
+}
+
+#resume-container{
+    margin-bottom: 10%;
+}
