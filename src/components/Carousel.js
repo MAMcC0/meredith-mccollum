@@ -19,7 +19,7 @@ function CarouselControl(){
     return(
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-                <img src={Carousel1}
+                <img className="circle" src={Carousel1}
                 alt="Beginners Luck landing page"/>
                 <Carousel.Caption>
                     
@@ -28,35 +28,35 @@ function CarouselControl(){
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={Carousel4} alt="Down with the fitness landing page"/>
+                <img className="circle" src={Carousel4} alt="Down with the fitness landing page"/>
                 <Carousel.Caption>
                     <p><a href="https://down-with-the-fitness.herokuapp.com">Down with the Fitness</a></p>
                     <a href='#'>Repository</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={Carousel2} alt="Work Scheduler landing page"/>
+                <img className="circle" src={Carousel2} alt="Work Scheduler landing page"/>
                 <Carousel.Caption>
                     <p><a href="https://mamcc0.github.io/day-planner/">Day Planner</a></p>
                     <a href='#'>Repository</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={Carousel3} alt="Screenshot of notetaker app"/>
+                <img className="circle" src={Carousel3} alt="Screenshot of notetaker app"/>
                 <Carousel.Caption>
                     <p><a href="https://vast-tundra-99915.herokuapp.com/">Note Keeper</a></p>
                     <a href='#'>Repository</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={Carousel5} alt="screenshot of weather dashboard"/>
+                <img className="circle" src={Carousel5} alt="screenshot of weather dashboard"/>
                 <Carousel.Caption>
                     <p><a href="https://mamcc0.github.io/weather-dashboard/">Weather Application</a></p>
                     <a href='#'>Repository</a>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-                <img src={Carousel6} alt="Screenshot of Not American Football site home"/>
+                <img className="circle" src={Carousel6} alt="Screenshot of Not American Football site home"/>
                 <Carousel.Caption>
                     <p><a href="#">Not American Football</a></p>
                     <a href='#'>Portfolio1Repo</a>
