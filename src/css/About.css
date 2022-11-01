@@ -38,3 +38,29 @@ p{
     margin-left: 3%;
     margin-top: 7%
 }
+
+@media screen and (max-width: 950px) {
+        #page-title {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        h1{
+            font-size: 1.5em;
+        }
+        p{
+            font-size: 1.25em;
+        }
+
+}
+
+
+@media screen and (max-width: 700px){
+    #page-title {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+}
