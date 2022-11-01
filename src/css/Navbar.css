@@ -16,3 +16,9 @@
 #navbar:hover{
     color:#ff9800;
 }
+
+@media screen and (max-width: 700px){
+    .navbar-collapse{
+        background-color: #f7dad1cb;
+    }
+}
